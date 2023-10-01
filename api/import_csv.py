@@ -52,7 +52,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("StockIt - Google Sheets Integration")
+    st.title("StackIt - Google Sheets Integration")
     st.subheader("Upload a CSV File")
 
     data = st.file_uploader("Upload a Dataset", type=["csv", "txt"])
