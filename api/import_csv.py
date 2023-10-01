@@ -121,7 +121,7 @@ def main():
                     st.dataframe(new_df1.head())
                     st.write(f"Data Type: {column_dtype}")
 
-                    if st.button("Apply Filter"):
+                    if st.button("Apply Filter and Import to Sheets"):
                         response = service.spreadsheets().values().append(
                             spreadsheetId=SPREADSHEET_ID,
                             valueInputOption='RAW',
