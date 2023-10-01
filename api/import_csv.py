@@ -4,7 +4,7 @@ from Google import Create_Service
 import pandas as pd
 import numpy as np
 
-FOLDER_PATH = 'C:/Users/sandi/Documents/'
+FOLDER_PATH = ''
 CLIENT_SECRET_FILE = os.path.join(FOLDER_PATH, 'client_secret_317110996643-e4i4h3kp3nmpb19pradpmto1m5dhe29r.apps.googleusercontent.com.json')
 API_SERVICE_NAME = 'sheets'
 API_VERSION = 'v4'
